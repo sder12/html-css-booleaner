@@ -36,7 +36,7 @@ header img{
 
 /* main text */
 .title h1{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bolder;
     padding-top: 20px;
 }
@@ -66,6 +66,29 @@ header img{
 .main_text_lorem ul {
     margin-top: 20px;
 }
+
+/* main text Table*/
+.main_text_lorem table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.main_text_lorem tr,
+.main_text_lorem th{
+    width: 10%;
+}
+
+.main_text_lorem thead{
+    background-color: #29ade6;
+    color: white;
+    text-align: left;
+}
+
+.blue_cell {
+    background-color:#b1e5f2;
+}
+
 /* FOOTER */
 footer{
     height: 100px;
