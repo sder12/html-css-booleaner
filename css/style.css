@@ -9,19 +9,29 @@
 
 /* HEADER */
 header {
-    height: 10vh;
-    background-color: aqua;
+    height: 100px;
+    background-color: #4ea0ff;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    background-position: top;
+    background-size: 30%;
+}
+
+header img{
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 10px;
 }
 
 /* MAIN */
 .container {
-    height: 80vh;
+    height: 600px;
     margin: auto;
     background-color: rgb(167, 167, 167);    
 }
 
 /* FOOTER */
 footer{
-    height: 10vh;
+    height: 100px;
     background-color: gold;
 }
