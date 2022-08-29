@@ -28,7 +28,7 @@ header img{
 
 /* MAIN */
 .container {
-    height: 1000px;
+    height: 1050px;
     margin: auto;
     background-color: rgb(255, 255, 255);    
     margin-left: 20px;
@@ -91,6 +91,27 @@ header img{
 
 /* FOOTER */
 footer{
-    height: 100px;
-    background-color: gold;
+    margin-left: 20px;
+    height: auto;
+}
+
+footer div{
+    margin-top: 10px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#foot_monitor{
+    height: 200px;
+    background-image: url("../img/monitor.jpg");
+    background-repeat: no-repeat;
+}
+
+#foot_graph{
+    height: 200px;
+    background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
 }
