@@ -23,15 +23,15 @@ header {
 header img{
     height: 50px;
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 /* MAIN */
 .container {
-    height: 600px;
+    height: 1000px;
     margin: auto;
     background-color: rgb(255, 255, 255);    
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 /* main text */
@@ -49,6 +49,23 @@ header img{
     color: #29ade6;
 }
 
+/* img Tim */
+.img_tim{
+    margin-top: 10px;   
+}
+
+/* main text Lorem*/
+.main_text_lorem, p{
+    margin-top: 10px;
+}
+
+.main_text_lorem p span{
+    background-color: yellow;
+}
+
+.main_text_lorem ul {
+    margin-top: 20px;
+}
 /* FOOTER */
 footer{
     height: 100px;
