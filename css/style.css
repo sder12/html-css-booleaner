@@ -6,6 +6,22 @@
 }
 
 /* COMMON */
+
 /* HEADER */
+header {
+    height: 10vh;
+    background-color: aqua;
+}
+
 /* MAIN */
+.container {
+    height: 80vh;
+    margin: auto;
+    background-color: rgb(167, 167, 167);    
+}
+
 /* FOOTER */
+footer{
+    height: 10vh;
+    background-color: gold;
+}
