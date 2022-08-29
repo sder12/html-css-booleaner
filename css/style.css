@@ -6,6 +6,9 @@
 }
 
 /* COMMON */
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 /* HEADER */
 header {
@@ -27,7 +30,23 @@ header img{
 .container {
     height: 600px;
     margin: auto;
-    background-color: rgb(167, 167, 167);    
+    background-color: rgb(255, 255, 255);    
+    margin-left: 10px;
+}
+
+/* main text */
+.title h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.title h2, h3{
+    color: grey;
+}
+
+.title span{
+    color: #29ade6;
 }
 
 /* FOOTER */
