@@ -1,0 +1,115 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container_correct{
+    width: 60%;
+    margin: auto;    
+}
+
+/* HEADER */
+header {
+    background-color: #4ea0ff;
+    background-image: url("../img/pattern.png");
+    background-size: 30%;    
+    /* CORRECTIONS!! NB <PROPERTY
+        background-repeat: repeat;
+        background-position: top;
+        height: 100px; */
+}
+
+header img{
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/* MAIN */
+
+
+/* main text */
+.title h1{
+    font-size: 45px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+
+.title h2, h3{
+    color: grey;
+}
+
+.title span{
+    color: #29ade6;
+}
+
+/* img Tim */
+.img_tim{
+    margin-top: 10px;   
+}
+
+/* main text Lorem*/
+.main_text_lorem, p{
+    margin-top: 10px;
+}
+
+.main_text_lorem p span{
+    background-color: yellow;
+}
+
+.main_text_lorem ul {
+    margin-top: 20px;
+}
+
+/* main text Table*/
+.main_text_lorem table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.large-col{
+    width: 50%;
+}
+/* NB se voglio modificare larghezza 1 colonna posso modificare un TH */
+
+.main_text_lorem thead{
+    background-color: #29ade6;
+    color: white;
+    text-align: left;
+}
+
+.blue_cell {
+    background-color:#b1e5f2;
+}
+
+/* FOOTER */
+footer div{
+    margin-top: 10px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+#foot_monitor{
+    height: 200px;
+    background-image: url("../img/monitor.jpg");
+    background-repeat: no-repeat;
+}
+
+#foot_graph{
+    height: 200px;
+    background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
+}
+

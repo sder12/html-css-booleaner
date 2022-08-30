@@ -10,14 +10,20 @@ html{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.container_correct{
+    width: 95%;
+    margin: auto;    
+}
+
 /* HEADER */
 header {
-    height: 100px;
     background-color: #4ea0ff;
     background-image: url("../img/pattern.png");
-    background-repeat: repeat;
-    background-position: top;
-    background-size: 30%;
+    background-size: 30%;    
+    /* CORRECTIONS!! NB <PROPERTY
+        background-repeat: repeat;
+        background-position: top;
+        height: 100px; */
 }
 
 header img{
@@ -27,12 +33,7 @@ header img{
 }
 
 /* MAIN */
-.container {
-    height: 1050px;
-    margin: auto;
-    background-color: rgb(255, 255, 255);    
-    margin-left: 20px;
-}
+
 
 /* main text */
 .title h1{
@@ -74,10 +75,10 @@ header img{
     width: 70%;
 }
 
-.main_text_lorem tr,
-.main_text_lorem th{
-    width: 10%;
+.large-col{
+    width: 50%;
 }
+/* NB se voglio modificare larghezza 1 colonna posso modificare un TH */
 
 .main_text_lorem thead{
     background-color: #29ade6;
@@ -90,11 +91,6 @@ header img{
 }
 
 /* FOOTER */
-footer{
-    margin-left: 20px;
-    height: auto;
-}
-
 footer div{
     margin-top: 10px;
     color: white;
@@ -103,6 +99,7 @@ footer div{
     font-size: 20px;
     font-weight: bolder;
 }
+
 
 #foot_monitor{
     height: 200px;
@@ -115,3 +112,4 @@ footer div{
     background-image: url("../img/graph.jpg");
     background-repeat: no-repeat;
 }
+
